@@ -4,6 +4,10 @@ developed by Wordpress Beirut Community.
 # Objective
 Best practice in using infinitscroll on wordpress, and how to use the admin-ajax.php for ajax calls.
 
+<div align="center">
+  <a target="_blank" href="https://youtu.be/8OUaP05NYow"><img src="https://img.youtube.com/vi/8OUaP05NYow/0.jpg" width="100%" alt="Wordpress Beirut InfinitScroll"></a>
+</div>
+
 # how to clone it.
 just clone the link such git clone (url) on your wp-content/themes folder.
 go to apearance , themes , and activate the wpbeirut-infinitscroll theme.
