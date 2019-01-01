@@ -1,0 +1,113 @@
+/*
+Theme Name:  Wordpress Beirut InfinitScroll Demo
+Theme URI:   http://www.wpbeirut.org
+Author:      Wordpress Beirut Community
+Author URI:  http://www.wpbeirut.org
+Description: A WordPress Beirut theme used to demonstrate how to use the best practice of ajax calls infinit scroll.
+Version:     1.0.0
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* preloader css */
+a#inifiniteLoader{
+    position: fixed;  
+    z-index: 2;  
+    bottom: 15px;   
+    right: 10px; 
+    display:none;
+}
+
+#header {
+    margin:0 auto;
+    width:auto;
+    text-align:center;
+}
+#header h1 {
+  text-align:center;
+  font-size:32px;
+}
+#header img {
+  text-align:center;
+  margin:0 auto;
+}
+section.latest-block{
+max-width:1200px;
+width:100%;
+margin:0 auto;
+text-align:center;
+/*    background:#dddddd; */
+}
+
+.card-wrapper{
+  display:inline-block;
+  box-shadow: 5px 10px 12px #888888;
+  max-width:300px;
+  margin:20px;
+}
+.img-banner img{
+  max-width:300px;
+  height:auto;
+}
+img:hover{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.main-content{
+  padding:1.5rem;
+  color:#153170;
+}
+.header{
+  font-size:30px;
+}
+.content-details{
+  display:flex;
+  text-align:left;
+}
+.content-details span{
+  border:2px solid #153170;
+  margin-right:10px;
+}
+
+.btn{
+  display:flex;
+  justify-content:center;
+  border:1px solid #dddddd;
+  color:#fff;
+  font-weight:bold;
+  height:20px;
+  width:100px;
+  border-radius: 0px 40px;
+  padding:1rem;
+  position:relative;
+  margin:30px;
+  background:#153170;
+  cursor:pointer;
+}
+.footer{
+  background:#153170;
+  height:40px;
+}
+
+
+
+@media (max-width:1013px){
+  .card-wrapper{
+  max-width:400px;
+}
+  .header{
+  font-size:20px;
+}
+  .btn{
+  height:10px;
+  width:100px;
+  margin:20px;
+ align-items:center; 
+}
+  .img-banner img{
+  max-width:400px;
+  height:auto;
+}
+}
+
