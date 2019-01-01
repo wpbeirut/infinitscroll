@@ -4,6 +4,10 @@ developed by Wordpress Beirut Community.
 # Objective
 Best practice in using infinitscroll on wordpress, and how to use the admin-ajax.php for ajax calls.
 
+# how to clone it.
+just clone the link such git clone (url) on your wp-content/themes folder.
+go to apearance , themes , and activate the wpbeirut-infinitscroll theme.
+
 ## Building the Ajax Function
 We will use WordPress' ajax functionality to make the call for this pagination. First we prepare the basic function for our pagination, please insert the following code to your theme's functions.php
 
@@ -22,6 +26,7 @@ This function will be used to make the call for our pagination, basically we sen
 
 `add_action('wp_ajax_infinite_scroll', 'wp_infinitepaginate');           // for logged in user
 add_action('wp_ajax_nopriv_infinite_scroll', 'wp_infinitepaginate');    // if user not logged in`
+
 The default action for WordPress ajax would be wp_ajax_(our action name), hence why the name infinite_scroll being used in the code example. We need to add two actions, one for logged in users and another is for users that are not logged in.
 
 Next we will need to build the ajax function that will send the two variables we need for our pagination. You can use WordPress hooks to insert this jQuery ajax function or straight away insert it into your theme header.php
