@@ -1,7 +1,7 @@
-#InfinitScroll
+# InfinitScroll
 developed by Wordpress Beirut Community.
 
-#Objective
+# Objective
 Best practice in using infinitscroll on wordpress, and how to use the admin-ajax.php for ajax calls.
 
 ## Building the Ajax Function
